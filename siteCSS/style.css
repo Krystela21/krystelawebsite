@@ -77,11 +77,13 @@ ul.menu_top li a{
     text-decoration: none;
 	background-color: #D7A859;
     color: #233166;
+    font-size: 20px;
 }
 ul.menu_top li a:hover{
     /*background-color: rgb(227, 117, 33);*/
 	background-color: #FF6280;
     color: black;
+    font-size: 20px;
 }
 
 .box {

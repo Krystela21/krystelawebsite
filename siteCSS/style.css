@@ -67,7 +67,13 @@ ul.menu_top li a:hover{
 }
 
 .container{
-	
+	display: flex;
+}
+
+.card{
+	position: relative;
+	left : 10px;
+	right: 10px;
 }
 
 footer{

@@ -2,7 +2,7 @@ html{
     font-size: 10px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
     font-family: "Open Sans", sans-serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
 	font-family :arial,"Times New Roman";
-	background-color: white;
+	background-color: #233A66;
 	padding-left: 3em;
 	padding-right: 3em;
 }
@@ -10,12 +10,14 @@ html{
 h1 {
     font-size: 60px;
     text-align: center;
+	color : white
 }
   
 p {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+	color : white;
 }
 
 ul.navi,li.navi{
@@ -36,10 +38,13 @@ ul.menu_top li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	background-color: #D7A859;
+    color: #FF6E80;
 }
 ul.menu_top li a:hover{
-    background-color: rgb(227, 117, 33);
-    color: black;
+    /*background-color: rgb(227, 117, 33);*/
+	background-color: #FFD691;
+    color: #233A66;
 }
 
 .box {
@@ -59,6 +64,10 @@ ul.menu_top li a:hover{
 
 .box > div:hover {
     flex: 5;
+}
+
+.container{
+	
 }
 
 footer{
